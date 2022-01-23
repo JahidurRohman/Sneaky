@@ -1,0 +1,641 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body  {
+	color: #888;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #2f2d4e;
+}
+a b
+	text-decoration: none;
+}
+
+ul {
+	padding: 0;
+}
+ul li {
+	list-style: none;
+}
+
+header {
+	width: 100%;
+	padding: 8px 0px;
+
+}
+
+.nav-item .nav-link {
+	font-size: 14px !important;
+	color: #2f2d4e !important;
+	font-weight: 400;	
+	display: inline-block;
+ 	margin: 0px 6px !important;
+ 	cursor: pointer;	
+
+}
+.nav-item .active{
+	color: #e22104!important;
+}
+.nav-item .nav-link:hover {
+	color: #e22104!important;
+	cursor: pointer;
+
+}
+.parant-nav {
+	position: relative;
+}
+.sub-nav {
+	position: absolute;
+    width: 146px;
+    background: white;
+    height: 85px;
+    z-index: 200;
+    box-shadow: 11px 12px 20px rgb(0 0 0 / 19%);
+    text-align: center;
+    /* padding: 10px 0; */
+    opacity: 0;
+}
+.parant-nav:hover .sub-nav {
+	opacity: 1;
+}
+.sub-nav p {
+	margin: 0 !important;
+}
+.sub-nav p a {
+	font-size: 16px;
+    color: black;
+    display: block;
+	padding: 6px 0;
+}
+.sub-nav p a:hover {
+	background: #e22104;
+	color: white;
+	transition: .5s;
+}
+.hr {
+	border-bottom: 1px solid lightgray;
+
+}
+
+
+
+
+/* 		Banner Css		 */
+
+
+.banner_area {
+	width: 100%;
+	 
+}
+.b_left {
+	padding: 90px 0 0;
+	width: 100%;
+	position: relative;
+}
+.b_social_icon {
+	position: absolute;
+	left:   -16%;
+    top: 30%;
+
+}
+.b_social_icon ul li {
+	margin: 0 0 32px;
+}
+.b_social_icon ul li a i {
+	font-size: 28px;
+    color: #2f2d4e;
+}
+.b_social_icon ul li a i:hover {
+	color: #e22104;
+	transition: .5s all;
+}
+.b_left h1 {
+	font-size: 70px;
+    color:  #2f2d4e;
+    font-weight: 600;
+    margin: 0 0 60px;
+    width: 90%;
+}
+
+.button {
+	background: #e22104;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 46px;
+    display: inline-block;
+    margin-right: 32px;
+    border-radius: 26px;
+
+}
+.button:hover {
+	color: white;
+}
+.b_left .watch {
+	 color:  #2f2d4e;
+	 font-size: 15px;
+	 padding: 0 15px;
+	 font-weight: 500;
+
+}
+.b_left .watch:hover{
+	color:  #0d6efd;
+}
+.b-service {
+	margin: 60px 0 0;
+    padding: 0;
+}
+ .middle_service {
+	border-left: 1px solid #e3dcdcdb;
+    border-right: 1px solid #e3dcdcdb;
+    padding: 0px 26px;
+}
+ 
+.b-service li {
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+    margin-right: 26px;
+     
+}
+.b-service li h4 {
+	font-size: 20px;
+    margin-top: 16px;
+}
+.owl-theme .owl-nav {
+	display: none;
+}
+.owl-theme .owl-dots .owl-dot {
+	margin-top: 26px;
+}
+
+
+
+/* 		About CSS		 */
+
+
+
+
+.about_area {
+	width: 100%;
+	padding: 100px 0;
+}
+.image_thump {
+	position: relative;
+}
+.posi_image {
+	position: absolute;
+	right: -14px;
+    bottom: -66px;
+}
+.h3_title {
+	font-size: 26px;
+    color: #e22104;
+    font-weight: 600;
+    margin-bottom: 10px;
+    position: relative;
+}
+.h3_title::after {
+	content: "";
+	position: absolute;
+	height: 2px;
+    width: 25%;
+    background: #2f2d4e6b;
+    top: 45%;
+    left: 30%;
+}
+ .h2_title {
+	font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 24px;
+ }
+
+ .learn_more {
+ 	margin: 24px 0 0;
+ }
+
+
+
+
+/* Feature Food Start  */
+
+
+
+.feature_food {
+	width: 100%;
+	padding: 90px 0;
+}
+.f-title {
+	width: 80%;
+}
+
+.f_inner_title {
+	background: #fff8f7;
+	padding: 20px;
+}
+.f_food_content:hover {
+	box-shadow: 0px 6px 20px rgb(0 0 0 / 19%);
+	transition: all .5s;
+	background: #fff;
+}
+.f_inner_title h3 {
+	font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.f_inner_title {
+	margin-bottom: 0!important;
+}
+.review_star ul li {
+	display: inline-block;
+}
+
+.review_star ul li i {
+	color: #ffbe04;
+}
+.text-right {
+	display: inline-block !important;
+    margin-left: 132px !important;
+    font-size: 28px;
+    color: #ff0000c2;
+    font-weight: 600;
+}
+.owl-theme_2 .owl-nav {
+	display: block;
+}
+.owl-theme_2 .owl-dots {
+	display: none;
+}
+ .owl-next span, .owl-prev span{
+	font-size: 30px;
+}
+.owl-next:hover {
+	background: white !important;
+	color: ;
+
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+	background: none !important;
+	color: black !important;
+}
+
+
+
+
+
+
+/* 		Offer Start		 */
+
+
+
+.offers {
+	width: 100%;
+	padding: 90px 0;
+}
+.offers_content {
+	position: relative;
+}
+.posi_offer { 
+	position: absolute;
+    background: #E22104;
+    right: -80%;
+    top: 80px;
+    padding: 120px 50px 23px;
+    width: 98%;
+    height: 98%;
+    text-align: center;
+    box-shadow: 5px 6px 10px rgb(0 0 0 / 19%);
+}
+.posi_offer h3 {
+	font-size: 45px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.posi_offer h2 {
+	font-size: 60px;
+    color: #fff;
+    margin: 10px 0 18px;
+}
+.read_more {
+	border: 1px solid;
+}
+.read_more:hover {
+	background: #FF0000;
+	color: white;
+	transition: .5s;
+}
+
+
+
+/* 		Food Menu Start	 */
+
+
+.food_menu_area {
+	width: 100%;
+	padding: 90px 0;
+}
+
+.menu_box {
+	width: 100%;
+	padding: 32px 25px 0;
+    background: #fff8f7;
+    margin: 0 0 20px;
+}
+ .menu_box:hover {
+ 	box-shadow: 0 10px 20px 0 rgb(8 6 89 / 10%);
+ 	background: #fff;
+ }
+
+.inner_title h3 {
+	font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.menu_for_img {
+	display: inline-block;
+    margin: 0px 26px 30px 0px
+}
+.menu_title {
+	
+	display: inline-block;
+}
+.menu_box {
+	position: relative;
+}
+.menu_box::after {
+	content: "";
+	position: absolute;
+	height: 1px;
+    width: 18%;
+    background: #2f2d4e;
+    top: 62px;
+    right: 82px;
+}
+.munu_price {
+	margin: 0 0 0 112px;
+    font-size: 22px;
+    color: red;
+    font-weight: 600;
+}
+
+
+/*		Reservation Start	  */
+
+
+.reservation_area {
+	width: 100%;
+	background-image: url('../img/food-banner.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: unset;
+	height:60vh;
+	position: relative;
+	z-index:  1;
+}
+.reservation_area::after {
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(2,1,15,.7);
+	z-index: -1;
+}
+
+.reser_content {
+	widows: 90%;
+	margin:100px auto 0;
+}
+.reser_content p {
+	z-index: 1;
+    color: white;
+	font-size: 22px;
+    font-weight: 400;
+    width: 80%;
+    margin: 0 auto 16px;
+}
+.reser_content h3 {
+	color: white;
+    font-size: 34px;
+    margin-bottom:36px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+/* 		Chef Of Member Start	 */
+
+
+
+.chef_member_area {
+	width: 100%;
+	padding: 90px 0;
+}
+.chef_content {
+	position: relative;
+}
+.chef_hover {
+	position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 60%;
+    background:  #0000007a;
+    opacity: 0;
+    
+}
+.chef_content:hover .chef_hover {
+	opacity: 1;
+	height: 100%;
+	transition:  .5s ease;
+	/* transform: translateY(10px); */
+}
+
+.chef_hover .c_social_icon {
+	position: absolute;
+    right: 20px;
+    top: 32%;
+}
+
+.chef_hover .c_social_icon ul li i{
+	font-size: 16px;
+    color: white;
+    display: inline-block;
+    margin: 10px 0;
+}
+ .chef_hover .c_social_icon ul li i:hover {
+ 	color: red;
+ 	transition: .5s;
+ }
+
+ .chef_name {
+ 	position: absolute;
+    bottom: 12px;
+    left: 20px;
+    background: white;
+    padding: 12px 58px;
+    text-align: center;
+ }
+ .chef_name p {
+ 	margin: 0 !important;
+ }
+ .chef_name h4 {
+ 	margin: 0 !important;
+ }
+
+
+ /* 	Reservation Form Start	 */
+
+
+
+ .reservation_table_area {
+ 	width: 100%;
+ }
+ .r_inner_table {
+ 	height: 80vh;
+ 	background-image: url('../img/reserbation-bg.jpg');
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-color: #211f1fed;
+    background-blend-mode: soft-light;
+    z-index: -1;
+}
+ .table_form {
+ 	padding: 20px;
+ }
+ .book_a_table {
+ 	font-family: 'Josefin Sans', sans-serif;
+ 	font-size: 22px;
+ 	font-weight: 500;
+ 	z-index: 1;
+	color: white;
+    display: block;
+    text-align: center;
+    margin: 40px 0;
+ }
+ .form-group input{
+ 	border-radius: 0 !important;
+    padding: 8px 14px !important;
+   
+ }
+ .form-group {
+ 	position: relative;
+ 	margin-bottom: 16px;
+ }
+  
+ .form-group i {
+ 	position: absolute;
+    right: 16px;
+    top: 18px;
+    font-size: 18px;
+    color: #888888a1;
+ }
+ .form-group input::placeholder {
+ 	font-size: 12px;
+
+ }
+  .form-group input:focus {
+  	outline: none;
+  }
+  .reserve{
+  	border: none;
+  }
+  .re_ta_content {
+  	    margin: 120px 0 0;
+  }
+
+
+
+  /* 	Blog Start		 */
+
+
+  .blog_area {
+  	width: 100%;
+  	padding: 90px 0;
+  }
+
+  /* 	Footer Start		 */
+
+
+
+  footer{
+  	width: 100%;
+  	padding: 90px 0;
+  	background: #fff8f7;
+  }
+  .footer_content h4{
+	font-size: 24px;
+    font-weight: 600;
+    margin: 0px 0  20px;
+  }
+  .footer_content ul li {
+
+  }
+  .footer_content ul li a {
+  	font-size: 14px;
+  	color: #888;
+  	display: inline-block;
+	margin: 0px 0 12px;
+  	
+
+  }
+  .footer_content ul li a:hover {
+	margin-left: 15px;
+    color: #e22104;
+    transition: .8s;
+  	
+  }
+  .f-input {
+  	border: none;
+    border: 1px solid #80808036;
+    width: 100%;
+  }
+  .f-input::placeholder{
+  	opacity: 1;
+  }
+   .f-input:focus::placeholder{
+  	opacity: 0;
+  }
+  .f-group {
+  	width: 80%;
+  	display: inline-block;
+  }
+  .bottn {
+	padding: 7px 18px;
+    border: 2px solid red;
+    background: red;
+    margin-left: -2px;
+  }
+  .bottn i {
+  	color: white;
+    font-size: 18px;
+  }
+.f-icon {
+	text-align: right;
+}
+  .f-icon li {
+  	display: inline-block;
+  	margin: 0 10px;
+  }
+  .f-icon li i {
+	font-size: 20px;
+    color: white;
+    background: #1D1B38;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height:36px;
+  }
+  .f-icon li i:hover {
+  	color: #E22104;
+  	transition: .5s;
+  }
